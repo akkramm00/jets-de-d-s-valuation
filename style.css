@@ -1,0 +1,27 @@
+/*==============================Page style==================*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*==============================Body style==================*/
+ body{
+    height: 100%;
+    background: linear-gradient(green, lightgreen)0 100% no-repeat;
+    background-size: 100% 50%;
+ }
+
+/*==========================Container style==================*/
+.container{
+    width:400 ;
+    padding: 50px;
+    border: 1px solid black;
+    position: absolute;
+    transform: translate(-50%,-50% );
+    top: 50%;
+    left:50%;
+    box-shadow: 0 20px 40px rgb(36, 35, 35 ,0.2);
+    border-radius: 10px;
+}
